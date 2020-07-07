@@ -8,6 +8,7 @@
   </head>
   <body>
     <center>
+    <div class="formContainer">
     <form id="addCartForm" action="index.html" method="post">
       <label for="carModel">Car Model</label>
       <input id="carModel" type="text" name="carModel" value="">
@@ -26,9 +27,13 @@
       <br/>
       <input type="submit" name="submit" value="submit">
     </form>
+  </div>
+    <br/>
+    <div class="tableContainer">
     <table id="carsTable">
 
     </table>
+  </div>
     </center>
     <script src="Model/Car.js" charset="utf-8"></script>
     <script src="Controller/carsTable.js" charset="utf-8"></script>

@@ -1,9 +1,19 @@
+.tableContainer {
+  width: 50%;
+  float: right;
+  margin: 50px;
+  margin-top: -13px;
+  background-color: darkred;
+  min-height: 350px;
+  height: auto;
+}
+
+
 #carsTable {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-  width: 50%;
-  float: right;
-  margin-right: 100px;
+  width: 80%;
+  margin: 50px;
 }
 
 
@@ -18,7 +28,7 @@
    background-color: black;
  }
 
-#carsTable tr {background-color: white;}
+#carsTable tr {background-color: gray;}
 
 #carsTable tr:hover {background-color: #ddd;}
 

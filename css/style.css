@@ -5,14 +5,21 @@ body {
  margin-top:  100px;
 }
 
-#addCartForm {
+.formContainer {
   width: 20%;
   float: left;
   margin-left: 100px;
+  background-color: darkred;
+  height: 350px;
+}
+
+
+#addCartForm {
+  width: 70%;
 }
 
 body label{
- background-color: white;
+ color: white;
 }
 
 input[type=text], select {
@@ -27,7 +34,7 @@ input[type=text], select {
 
 input[type=submit] {
   width: 100%;
-  background-color: #4CAF50;
+  background-color: gray;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -37,7 +44,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: black;
 }
 
 div {
