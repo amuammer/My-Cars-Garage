@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Garage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/table.css">
+  </head>
+  <body>
+    <center>
+    <form id="addCartForm" action="index.html" method="post">
+      <label for="carModel">Car Model</label>
+      <input id="carModel" type="text" name="carModel" value="">
+      <br/>
+      <label for="modelYear">Model Year</label>
+      <input id="modelYear" type="text" name=modelYear"" value="">
+      <br/>
+      <label for="manufacturer">Manufacturer</label>
+      <select class="" name="manufacturer">
+          <option value="Germany">Germany</option>
+          <option value="Korea">Korea</option>
+          <option value="Japan">Japan</option>
+          <option value="France">France</option>
+          <option value="USA">USA</option>
+      </select>
+      <br/>
+      <input type="submit" name="submit" value="submit">
+    </form>
+    <table id="carsTable">
+
+    </table>
+    </center>
+    <script src="Model/Car.js" charset="utf-8"></script>
+    <script src="Controller/carsTable.js" charset="utf-8"></script>
+    <script src="Controller/addCar.js" charset="utf-8"></script>
+  </body>
+</html>
